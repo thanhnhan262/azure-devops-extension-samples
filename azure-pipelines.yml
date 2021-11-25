@@ -8,5 +8,5 @@ steps:
 - task: katalonTask@1
   displayName: 'Test Katalon with Azure 01'
   inputs:
-    version: '8.1.0'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites\01 - TestSuites" -apikey="f3aa28fe-285b-4c61-b85f-a008084fc58a" --config -webui.autoUpdateDrivers=true'
+   version: '8.1.0'
+   executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites\01 - TestSuites" -apiKey="f3aa28fe-285b-4c61-b85f-a008084fc58a" -orgID="259420"'
