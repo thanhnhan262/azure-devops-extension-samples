@@ -7,5 +7,4 @@
 /.project
 /.gradle/
 /Drivers/
-/settings/internal/com.kms.katalon.composer.testcase.properties
-
+/settings/
