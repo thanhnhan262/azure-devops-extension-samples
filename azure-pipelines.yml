@@ -5,6 +5,9 @@ pool:
   vmImage: windows-2019
 
 steps:
+- task: ScreenResolutionUtility@1
+  inputs:
+    displaySettings: 'optimal'
 - task: katalonTask@1
   displayName: 'Test Katalon with Azure 01'
   inputs:
