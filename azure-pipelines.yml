@@ -7,7 +7,7 @@ pool:
 steps:
 - task: ScreenResolutionUtility@1
   inputs:
-    displaySettings: '1920 × 1200'
+    displaySettings: '1600 × 1200'
 - task: katalonTask@1
   displayName: 'Test Katalon with Azure 01'
   inputs:
