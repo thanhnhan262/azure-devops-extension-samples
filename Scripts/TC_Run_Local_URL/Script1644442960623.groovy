@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser("file:///Users/thanhnhanmai/katalon/projects/Customer%20Issues/Reports/20220126_114650/Test%20suites/TS_Sum_Data_01/20220126_114650/20220126_114650.html")
-WebUI.openBrowser("https://google.com")
+WebUI.openBrowser("http://localhost/~thanhnhanmai/phpinfo.php")
 
 
-WebUI.verifyTextPresent("TS_Sum_Data_01 Test Log", false)
+WebUI.verifyTextPresent("PHP Version 7.3.24", false)
 
